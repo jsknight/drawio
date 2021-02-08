@@ -12887,6 +12887,7 @@
 		this.menus.get('view').setEnabled(active);
 		this.menus.get('importFrom').setEnabled(editable);
 		this.menus.get('arrange').setEnabled(editable);
+		this.menus.get('xano').setEnabled(editable);
 		
 		// Disables connection drop downs in toolbar
 		if (this.toolbar != null)
