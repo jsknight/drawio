@@ -1357,7 +1357,7 @@ Menubar.prototype.addMenuHandler = function(elt, funct)
 			{
 				this.editorUi.editor.graph.popupMenuHandler.hideMenu();
 				var menu = new mxPopupMenu(funct);
-				menu.div.className += ' geMenubarMenu';
+				menu.div.className += ' geMenubarMenu jon';
 				menu.smartSeparators = true;
 				menu.showDisabled = true;
 				menu.autoExpand = true;
