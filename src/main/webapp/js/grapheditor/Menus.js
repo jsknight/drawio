@@ -1326,7 +1326,7 @@ Menubar.prototype.hideMenu = function()
 Menubar.prototype.addMenu = function(label, funct, before)
 {
 	var elt = document.createElement('a');
-	elt.className = 'geItem';
+	elt.className = 'geItem jon knight';
 	mxUtils.write(elt, label);
 	this.addMenuHandler(elt, funct);
 	
